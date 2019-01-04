@@ -4,7 +4,7 @@ package ru.job4j.fit;
  * Программа для вычисления идеального веса
  * у мужчин и женщин.
  *
- * @author Vladimir Grankin
+ * @author Alexandr Alexeev (a.joy8508@gmail.com)
  * @version %I, %G
  */
 public class Fit {

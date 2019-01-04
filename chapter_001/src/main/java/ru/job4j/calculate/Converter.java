@@ -3,7 +3,7 @@ package ru.job4j.converter;
 /**
  * Converter - Currency converter
  *
- * @author Vladimir Grankin
+ * @author Alexandr Alexeev (a.joy8508@gmail.com)
  * @since 0.1
  * @version 0.1
 * */

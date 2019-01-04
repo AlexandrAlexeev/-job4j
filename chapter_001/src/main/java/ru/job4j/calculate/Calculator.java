@@ -3,7 +3,7 @@ package ru.job4j.calculator;
 /**
  * Calculator - class for basic math operations
  *
- * @author Vladimir Grankin
+ * @author Alexandr Alexeev (a.joy8508@gmail.com)
  * @version 0.1
  * @since 0.1
  */
