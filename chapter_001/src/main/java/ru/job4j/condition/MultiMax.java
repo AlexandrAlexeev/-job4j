@@ -13,7 +13,7 @@ public class MultiMax {
      * @param second Number 2.
      * @return Result
      */
-    public int Multimax(int first, int second) {
+    public int max(int first, int second) {
         return first > second ? first : second;
     }
 
@@ -24,7 +24,7 @@ public class MultiMax {
      * @param third Number 3.
      * @return Result.
      */
-    public int Multimax(int first, int second, int third) {
-        return this.max(this.max(first, second), third);
+    public int max(int first, int second, int third) {
+        return max(max(first, second), third);
     }
 }
