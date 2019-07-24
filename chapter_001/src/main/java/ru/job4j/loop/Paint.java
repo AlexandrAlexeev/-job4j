@@ -4,7 +4,7 @@ import java.util.function.BiPredicate;
 
 /**
  * Рисует пирамиду в псевдографике
- * @author Alexandr Alexeev (a.joy8508@gmail.com)
+ * @author Alexandr Alexeev 
  * @version %Id%
  * @since 0.1
  */
