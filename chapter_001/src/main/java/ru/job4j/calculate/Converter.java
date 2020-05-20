@@ -6,14 +6,14 @@ package ru.job4j.converter;
  * @author Alexandr Alexeev (a.joy8508@gmail.com)
  * @since 0.1
  * @version 0.1
-* */
+ * */
 
 public class Converter {
     /**
      * Convert Russian ruble to Euro
      * @param value Rus ruble
      * @return Euro
-    * */
+     * */
     public int rubleToEuro(int value) {
         return value / 70;
     }
