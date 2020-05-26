@@ -6,7 +6,7 @@ package ru.job4j.array;
  * @version $Id$.
  * @since 0.1
  */
-public class FindLoop {
+    public class FindLoop {
 
     /**
      * indexOf - возвращает индекс найденного элемента.
