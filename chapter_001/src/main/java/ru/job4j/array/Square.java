@@ -9,17 +9,14 @@ package ru.job4j.array;
 public class Square {
 
     /**
-     * calculate - возвращает массив через цикл элементами от 1 до bound возведенными в квадрат
-     * @param bound - размер массива
-     * @return - возвращаемый массив
+     * Массив с числами возведенными в квадрат от 1 до bound.
+     * @param bound число до которого возводить в квадрат.
+     * @return массив с числами возведенными в квадрат.
      */
     public int[] calculate(int bound) {
         int[] rst = new int[bound];
-        // заполнить массив через цикл элементами от 1 до bound возведенными в квадрат
-        int i = 0;
-        while (i < bound) {
-            rst[i] = (int) Math.pow(i + 1, 2);
-            i++;
+        for (int i = 1; i <= bound; i++) {
+            rst[i - 1] = i * i;
         }
         return rst;
     }
